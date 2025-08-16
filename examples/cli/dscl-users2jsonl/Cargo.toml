@@ -1,0 +1,14 @@
+[package]
+name = "dscl-users2jsonl"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies.rs-dscl-users]
+path = "../../.."
+
+[dependencies.serde_json]
+version = "1"
+default-features = false
+features = [
+	"std",
+]
